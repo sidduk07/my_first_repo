@@ -98,12 +98,16 @@ nav ul li a:hover{
     min-height: calc(100vh - 58px - 12vh);
 }
 .slider{
-    padding: 31px 110px;
   border: 2px solid black;
   height: 37vh;
   background-color: aqua;
 }
 
+.slider img {
+    height: 100%;
+    width: 100%;
+    margin: auto auto;
+}
 footer{
     height: 12vh;
     background-color: var(--main-bg-color); 
